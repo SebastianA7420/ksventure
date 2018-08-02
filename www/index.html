@@ -18,19 +18,25 @@
 	<div id="app">
 		{{ message }}
 		
-
 <select v-model="page">
-	<option v-bind:value="b1" >Page 1</option>
-<option v-bind:value="b2" >Page 2</option>
-<option v-bind:value="b3" >Page 3</option></select>
+  <option disabled value="">Please select one</option>
+  <option>Page 1</option>
+  <option>Page 2</option>
+  <option>Page 3</option>
+</select>
 {{ page }}
-	</div>
+
+<div v-if="page ==='Page 1'" v-html="loginPage"></div>
+<div v-if="page ==='Page 2'">hey</div>
+<div v-if="page ==='Page 3'">hello</div>
+
+
 
 	<!--<video autoplay muted loop id="video">
 		<source src="videos/Image from iOS.mp4" type="video/mp4">
 	</video>-->
 
-
+<!--
 <br>
     <center><img id="venture" src="img/VentureLogo.png"></center>
 
@@ -46,12 +52,14 @@
 
 <center><p>Do you already have an account?</p> <button id="signin" onclick="location.href='signin.html'" type="button">Sign In</button></center>
 
-
+-->
 
  <script type="text/javascript" src="cordova.js"></script>
           <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
         <script type="text/javascript" src="js/index.js"></script>
+
+        <script type="text/javascript" src="js/loginPage.js"></script> 
        
         <script type="text/javascript">
             app.initialize();
