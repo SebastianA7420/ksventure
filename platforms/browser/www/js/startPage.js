@@ -1,7 +1,7 @@
-vue.loginPage = `
+vue.startPage = `
 
 <br>
-    <center><img id="venture" src="img/VentureLogo.png"></center>
+    <!--<center><img id="venture" src="img/VentureLogo.png"></center>-->
 
 <br><br><br><br>
 
@@ -9,7 +9,7 @@ vue.loginPage = `
 
     <br><br>
   
-<center><button id="jointheadv" onclick="location.href='email.html'" type="button">Join the Adventure</button></center>
+<center><button id="jointheadv" onclick="vue.page = 'Page 2'" type="button">Join the Adventure</button></center>
 
 <br><br><br>
 
