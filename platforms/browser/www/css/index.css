@@ -1,6 +1,6 @@
 #video {
     position: fixed;
-    min-width: 100%; 
+    min-width: 100%;
     min-height: 100%;
     top: 0;
     left: 0;
@@ -147,8 +147,9 @@ min-height: 10%;
     font-size: 80px;
     padding-bottom: 1px;
     color: white;
-    text-shadow: 5px 5px #600e34; 
+    text-shadow: 5px 5px #600e34;
     z-index: 1;
+    padding: 20px;
 }
 
 
@@ -176,4 +177,3 @@ z-index: 1;
     text-shadow: 2px 2px #600e34;
     z-index: 1;
 }
-
