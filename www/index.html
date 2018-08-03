@@ -26,14 +26,14 @@
 		
 <select v-model="page">
   <option disabled value="">Please select one</option>
-  <option>Page 1</option>
-  <option>Page 2</option>
+  <option>Start</option>
+  <option>SignUpEmail</option>
   <option>Page 3</option>
 </select>
 {{ page }}
 
-<div v-if="page ==='Page 1'" v-html="startPage"></div>
-<div v-if="page ==='Page 2'" v-html="email"></div>
+<div v-if="page ==='Start'" v-html="startPage"></div>
+<div v-if="page ==='SignUpEmail'" v-html="email"></div>
 <div v-if="page ==='Page 3'">hello</div>
 
 </div>

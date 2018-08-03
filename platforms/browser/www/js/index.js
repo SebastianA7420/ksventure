@@ -3,4 +3,4 @@ var vue = new Vue ({
                 data: {
                     message: 'Hello Blah', page: ''
                 }
-            })
+            });

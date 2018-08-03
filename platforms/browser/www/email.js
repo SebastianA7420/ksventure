@@ -11,4 +11,4 @@ vue.email = `
     <center><button id="next" onclick="location.href='userpass.html'" type="button">Next</button></center>
 
 <br><br><br> 
-`
+`;
