@@ -1,4 +1,7 @@
-#feedpagevideo{
-  background-position: center;
-
+ul{
+  padding: 15px 0px 0px 0px;
+}
+li{
+  padding-left: 40px;
+  display: inline;
 }
