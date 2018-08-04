@@ -1,6 +1,6 @@
 vue.email = `
 
-<br><br><br><br><br>
+
     <h1 class="name">Venture</h1>
     <h4 class="catchphrase">Do you have what it takes?</h4>
 
