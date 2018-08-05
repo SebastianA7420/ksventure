@@ -1,9 +1,12 @@
 vue.startPage = `
 
 <br>
-    <!--<center><img id="venture" src="img/VentureLogo.png"></center>-->
+    <center><img id="venture" src="img/logooo.png"></center>
 
-<br><br><br><br>
+
+<h2 class="name">Venture</h2>
+
+<br><br><br>
 
     <h4 class="catchphrase">Do you have what it takes?</h4>
 
