@@ -1,14 +1,21 @@
 vue.email = `
 
-<br><br><br><br><br>
+<br>
+
+<center><img id="venture" src="img/logooo.png"></center>
+
+
     <h1 class="name">Venture</h1>
+    <br><br><br>
     <h4 class="catchphrase">Do you have what it takes?</h4>
+
+    <br><br>
   
-     <center><p>E-mail: <input id="email"></p></center>
+     <center><input type="email" placeholder="E-mail"></center>
 
     <br><br>
 
-    <center><button id="next" onclick="location.href='userpass.html'" type="button">Next</button></center>
+    <center><button class="btn btn-block" onclick="vue.page = 'SignUpUserPass'">Next</button></center>
 
 <br><br><br> 
 `;

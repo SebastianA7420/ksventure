@@ -7,6 +7,7 @@
     z-index: -1;
 }
 
+
 body{
     background-image: url("videos/Image from iOS.mp4");
 }
@@ -144,10 +145,10 @@ min-height: 10%;
 .name {
     font-family: "Pattaya";
     text-align: center;
-    font-size: 80px;
+    font-size: 50px;
     padding-bottom: 1px;
-    color: white;
-    text-shadow: 5px 5px #600e34; 
+    color: #3c5db7;
+    text-shadow: 5px 5px #9bb6ff; 
     z-index: 1;
 }
 
@@ -155,25 +156,25 @@ min-height: 10%;
 .catchphrase {
     font-family: "Montserrat";
     text-align: center;
-    color: white;
+    color: #3c5db7;
     margin-top: -50px;
-    text-shadow: 2px 2px #600e34;
+    text-shadow: 2px 2px #9bb6ff;
     z-index: 1;
 }
 
 p{
     font-family: "Montserrat";
-    color: white;
-text-shadow: 2px 2px #600e34;
+    color: #3c5db7;
+text-shadow: 2px 2px #9bb6ff;
 z-index: 1;
 }
 
 .signinsub {
     font-family: "Montserrat";
     text-align: center;
-    color: white;
+    color: #3c5db7;
     margin-top: -50px;
-    text-shadow: 2px 2px #600e34;
+    text-shadow: 2px 2px #9bb6ff;
     z-index: 1;
 }
 
