@@ -6,13 +6,14 @@ vue.userpass = `
 
     <h1 class="name">Venture</h1>
 
-    <br><br><br><br>
+    <br><br><br>
     
     <h4 class="catchphrase">Do you have what it takes?</h4>
 
+    <br>
+
      <center><input type="text" placeholder="Choose Username"></center>
 
-     <br><br>
 
      <center><input type="text" placeholder="Choose Password"></center>
      
