@@ -376,7 +376,7 @@ p {
 }
 .btn:active, .btn.active {
   color: inherit;
-  background-color: #9bb6ff;
+  background-color: #951dc1;
 }
 .btn:disabled, .btn.disabled {
   opacity: .6;
@@ -417,6 +417,17 @@ p {
 
 .btn-outlined {
   background-color: transparent;
+  border-color: #951dc1;
+  font-family: "Montserrat";
+  width: 200px;
+  padding: 15px 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #951dc1;
+   border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px
 }
 .btn-outlined.btn-primary {
   color: #428bca;

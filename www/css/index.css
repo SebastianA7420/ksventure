@@ -141,13 +141,17 @@ min-height: 10%;
      z-index: 1;
 }
 
+@font-face{
+    font-family: Squimpy;
+    src: url(../ratchet/fonts/Squimpy.otf);
+}
 
 .name {
-    font-family: "Pattaya";
+    font-family: Squimpy; 
     text-align: center;
-    font-size: 50px;
+    font-size: 90px;
     padding-bottom: 1px;
-    color: #3c5db7;
+    color: #951dc1;
     text-shadow: 5px 5px #9bb6ff; 
     z-index: 1;
 }
@@ -156,7 +160,7 @@ min-height: 10%;
 .catchphrase {
     font-family: "Montserrat";
     text-align: center;
-    color: #3c5db7;
+    color: #951dc1;
     margin-top: -50px;
     text-shadow: 2px 2px #9bb6ff;
     z-index: 1;
@@ -164,7 +168,7 @@ min-height: 10%;
 
 p{
     font-family: "Montserrat";
-    color: #3c5db7;
+    color: #951dc1;
 text-shadow: 2px 2px #9bb6ff;
 z-index: 1;
 }
@@ -172,7 +176,7 @@ z-index: 1;
 .signinsub {
     font-family: "Montserrat";
     text-align: center;
-    color: #3c5db7;
+    color: #951dc1;
     margin-top: -50px;
     text-shadow: 2px 2px #9bb6ff;
     z-index: 1;
