@@ -28,4 +28,4 @@ vue.viewAdventures = `
       </div>
     </a>
   </li>
-</ul> `;
+</ul> `
