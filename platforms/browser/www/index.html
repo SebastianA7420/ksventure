@@ -34,6 +34,7 @@
   <option>SignUpUserPass</option>
   <option>HomePage</option>
   <option>SignIn</option>
+  <option>viewAdventures</option>
 </select>
 {{ page }}
 
@@ -42,6 +43,7 @@
 <div v-if="page ==='SignUpUserPass'" v-html="userpass"></div>
 <div v-if="page ==='HomePage'" v-html="homepage"></div>
 <div v-if="page ==='SignIn'" v-html="signin"></div>
+<div v-if="page ==='viewAdventures'" v-html="viewAdventures"></div>
 
 </div>
 
@@ -71,6 +73,11 @@
         <script type="text/javascript" src="js/homepage.js"></script>
 
         <script type="text/javascript" src="js/signin.js"></script>
+
+
+
+
+        <script type="text/javascript" src="js/viewAdventures.js"></script>
 
 
         <script type="text/javascript">

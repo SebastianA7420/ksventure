@@ -13,5 +13,5 @@ vue.loginPage = `
 
 <br><br><br>
 
-<center><p>Do you already have an account?</p> <button id="signin" onclick="location.href='signin.html'" type="button">Sign In</button></center> 
+<center><p>Do you already have an account?</p> <button id="signin" onclick="location.href='signin.html'" type="button">Sign In</button></center>
 `
