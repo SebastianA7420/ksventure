@@ -1,24 +1,22 @@
 vue.homepage = `
 
 <nav class="bar bar-tab">
-  <a class="tab-item active" href="#">
+  <center>
+  <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
     <span class="icon icon-home"></span>
-    <span class="tab-label">Home</span>
+    <span class="tab-label">Feed</span>
   </a>
-  <a class="tab-item" href="#">
+  <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
+    <span class="icon icon-person"></span>
+    <span class="tab-label">Camera</span>
+  </a>
+  <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
+    <span class="icon icon-star-filled"></span>
+    <span class="tab-label">View Adventures</span>
+  </a>
+  <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
     <span class="icon icon-person"></span>
     <span class="tab-label">Profile</span>
   </a>
-  <a class="tab-item" href="#">
-    <span class="icon icon-star-filled"></span>
-    <span class="tab-label">Missions</span>
-  </a>
-  <a class="tab-item" href="#">
-    <span class="icon icon-search"></span>
-    <span class="tab-label">Search</span>
-  </a>
-  <a class="tab-item" href="#">
-    <span class="icon icon-gear"></span>
-    <span class="tab-label">Settings</span>
-  </a>
+  </center>
 </nav> `

@@ -15,7 +15,7 @@ vue.email = `
 
     <br><br>
 
-    <center><button class="btn btn-block" onclick="vue.page = 'SignUpUserPass'">Next</button></center>
+    <center><button class="btn btn-outlined" onclick="vue.page = 'SignUpUserPass'">Next</button></center>
 
 <br><br><br> 
 `;

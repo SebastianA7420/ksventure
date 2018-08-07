@@ -27,7 +27,7 @@ vue.userpass = `
 
     </form> -->
 
-    <style>
+<style>
 body {font-family: Arial, Helvetica, sans-serif;}
 form {border: 3px solid #f1f1f1;}
 
@@ -78,7 +78,7 @@ span.psw {
 <body>
 
 
-<form action="/action_page.php">
+<form action="/action_page.php" method="post">
 
   <div class="container">
     <label for="uname"></label>
@@ -87,17 +87,17 @@ span.psw {
     <label for="psw"></label>
     <center><input type="password" placeholder="Choose Password" name="psw" required></center>
         
-    <center><button type="submit" class="btn btn-block">Login</button></center>
+    <center><button type="submit" class="btn btn-outlined" onclick="vue.page = 'HomePage'">Sign Up</button></center>
     <!<label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
   </div>
 
-  <div class="container" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
-  </div>
-</form>
+ 
+</form> 
+
+
+
 
 <br><br><br> `;
 
