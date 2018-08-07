@@ -3,7 +3,7 @@ vue.homepage = `
 <nav class="bar bar-tab">
   <center>
   <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
-    <span class="icon icon-home"></span>
+    <span class="icon" <img src=</span>
     <span class="tab-label">Feed</span>
   </a>
   <a class="tab-item" onclick="vue.page = 'camera'" data-transition="slide-in">

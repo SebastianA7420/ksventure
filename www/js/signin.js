@@ -19,7 +19,7 @@ vue.signin = `
 
     <br><br>
 
-    <center><button class="btn btn-outlined" onclick="vue.page = 'HomePage'">Sign In</button></center>
+    <center><button class="btn btn-outlined" onclick="vue.signInFn()">Sign In</button></center>
 
     <br><br><br>
 
