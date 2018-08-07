@@ -36,6 +36,7 @@
   <option>HomePage</option>
   <option>SignIn</option>
   <option>viewAdventures</option>
+  <option>camera</option>
 </select>
 {{ page }}
 
@@ -45,7 +46,7 @@
 <div v-if="page ==='HomePage'" v-html="homepage"></div>
 <div v-if="page ==='SignIn'" v-html="signin"></div>
 <div v-if="page ==='viewAdventures'" v-html="viewAdventures"></div>
-
+<div v-if="page ==='camera'" v-html="camera"></div>
 </div>
 
 
@@ -60,7 +61,7 @@
 
 
  <script type="text/javascript" src="cordova.js"></script>
-          <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
         <script type="text/javascript" src="js/index.js"></script>
 
@@ -68,17 +69,14 @@
 
         <script type="text/javascript" src="js/email.js"></script>
 
-
         <script type="text/javascript" src="js/userpass.js"></script>
 
         <script type="text/javascript" src="js/homepage.js"></script>
 
         <script type="text/javascript" src="js/signin.js"></script>
 
+        <script  type="text/javascript" src="js/viewAdventures.js"></script>
 
-
-
-        <script type="text/javascript" src="js/viewAdventures.js"></script>
 
 
         <script type="text/javascript">

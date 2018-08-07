@@ -6,7 +6,7 @@ vue.homepage = `
     <span class="icon icon-home"></span>
     <span class="tab-label">Feed</span>
   </a>
-  <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
+  <a class="tab-item" onclick="vue.page = 'camera'" data-transition="slide-in">
     <span class="icon icon-person"></span>
     <span class="tab-label">Camera</span>
   </a>
