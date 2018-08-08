@@ -6,7 +6,7 @@ vue.userpass = `
 
     <h1 class="name">Venture</h1>
 
-    <br><br><br>
+    <br><br>
     
     <h4 class="catchphrase">Do you have what it takes?</h4>
 
@@ -28,9 +28,6 @@ vue.userpass = `
     </form> -->
 
 <style>
-body {font-family: Arial, Helvetica, sans-serif;}
-form {border: 3px solid #f1f1f1;}
-
 
 
 button {
