@@ -97,6 +97,9 @@ span.psw {
 </form> 
 
 
+<center><p>Do you already have an account?</p> <button class="btn btn-outlined" onclick="vue.page = 'SignIn'">Sign In</button></center>
+
+
 
 
 <br><br><br> `;

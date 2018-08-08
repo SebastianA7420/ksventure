@@ -1,9 +1,9 @@
 vue.startPage = `
 
 
-	<!-- <video autoplay muted loop id="video">
+	<video autoplay muted loop id="video">
 		<source src="videos/Image from iOS.mp4" type="video/mp4">
-	</video> -->
+	</video>
 
 <br>
     <center><img id="venture" src="img/logooo.png"></center>

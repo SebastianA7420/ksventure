@@ -417,13 +417,15 @@ p {
 
 .btn-outlined {
   background-color: transparent;
-  border-color: #951dc1;
+  border-color: #FFFFFF;
+  border-width: medium;
   font-family: "Montserrat";
   width: 200px;
   padding: 15px 0;
   margin-bottom: 10px;
   font-size: 18px;
-  color: #951dc1;
+  font-weight: bold;
+  color: #FFFFFF;
    border-top-right-radius: 10px;
      border-top-left-radius: 10px;
      border-bottom-right-radius: 10px;
