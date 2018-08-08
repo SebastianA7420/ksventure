@@ -7,14 +7,13 @@
     z-index: -1;
 }
 
-
-body{
+/* body{
     background-image: url("videos/Image from iOS.mp4");
 }
 #feedpage{
     background-image: url("videos/Images from iOS.mp4");
+} */
 
-}
 #venture {
 min-width: 10%;
 min-height: 10%;
@@ -160,7 +159,6 @@ min-height: 10%;
     color: #951dc1;
 
     text-shadow: 5px 5px #9bb6ff;
->>>>>>> 0da01d59c063a83e4bb311bf2b510ade18ad480d
     z-index: 1;
     padding: 20px;
 }

@@ -39,14 +39,13 @@
   <option>camera</option>
 </select>
 {{ page }}
-
-<div v-if="page ==='Start'" v-html="startPage"></div>
-<div v-if="page ==='SignUpEmail'" v-html="email"></div>
-<div v-if="page ==='SignUpUserPass'" v-html="userpass"></div>
-<div v-if="page ==='HomePage'" v-html="homepage"></div>
-<div v-if="page ==='SignIn'" v-html="signin"></div>
-<div v-if="page ==='viewAdventures'" v-html="viewAdventures"></div>
-<div v-if="page ==='camera'" v-html="camera"></div>
+  <div v-if="page ==='Start'" v-html="startPage"></div>
+  <div v-if="page ==='SignUpEmail'" v-html="email"></div>
+  <div v-if="page ==='SignUpUserPass'" v-html="userpass"></div>
+  <div v-if="page ==='HomePage'" v-html="homepage"></div>
+  <div v-if="page ==='SignIn'" v-html="signin"></div>
+  <div v-if="page ==='viewAdventures'" v-html="viewAdventures"></div>
+  <div v-if="page ==='camera'" v-html="camera"></div>
 </div>
 
 
@@ -55,8 +54,9 @@
 	</video>
 
 <center><p>Do you already have an account?</p> <button id="signin" onclick="location.href='signin.html'" type="button">Sign In</button></center>
-</body>
 -->
+
+</body>
 
 
 
@@ -77,8 +77,6 @@
 
         <script  type="text/javascript" src="js/viewAdventures.js"></script>
         <script  type="text/javascript" src="js/camera.js"></script>
-        <script type="text/javascript">
-            app.initialize(); </script>
 
 </body>
 
