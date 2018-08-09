@@ -39,13 +39,40 @@
   <option>camera</option>
 </select>
 {{ page }}
-  <div v-if="page ==='Start'" v-html="startPage"></div>
-  <div v-if="page ==='SignUpEmail'" v-html="email"></div>
-  <div v-if="page ==='SignUpUserPass'" v-html="userpass"></div>
-  <div v-if="page ==='HomePage'" v-html="homepage"></div>
-  <div v-if="page ==='SignIn'" v-html="signin"></div>
-  <div v-if="page ==='viewAdventures'" v-html="viewAdventures"></div>
-  <div v-if="page ==='camera'" v-html="camera"></div>
+
+<div v-if="page ==='Start'" v-html="startPage"></div>
+<div v-if="page ==='SignUpEmail'" v-html="email"></div>
+<div v-if="page ==='SignUpUserPass'" v-html="userpass"></div>
+<div v-if="page ==='HomePage'" v-html="homepage"></div>
+<div v-if="page ==='SignIn'" v-html="signin"></div>
+<div v-if="page ==='viewAdventures'" v-html="viewAdventures"></div>
+<div v-if="page ==='camera'" v-html="camera"></div>
+
+
+{{isSignedIn}}
+
+<div v-if="isSignedIn">
+  <nav class="bar bar-tab">
+  <center>
+  <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
+    <span></span>
+    <span class="tab-label">Feed</span>
+  </a>
+  <a class="tab-item" onclick="vue.page = 'camera'" data-transition="slide-in">
+    <span class="icon icon-person"></span>
+    <span class="tab-label">Camera</span>
+  </a>
+  <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
+    <span class="icon icon-star-filled"></span>
+    <span class="tab-label">View Adventures</span>
+  </a>
+  <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
+    <span class="icon icon-person"></span>
+    <span class="tab-label">Profile</span>
+  </a>
+  </center>
+</nav>
+</div>
 </div>
 
 

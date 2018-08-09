@@ -87,7 +87,7 @@ span.psw {
     <label for="psw"></label>
     <center><input type="password" placeholder="Choose Password" name="psw" required></center>
         
-    <center><button type="submit" class="btn btn-outlined" onclick="vue.page = 'HomePage'">Sign Up</button></center>
+    <center><button type="submit" class="btn btn-outlined" onclick="vue.signInFn()">Sign Up</button></center>
     <!<label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
     </label>
@@ -95,6 +95,9 @@ span.psw {
 
  
 </form> 
+
+
+<center><p>Do you already have an account?</p> <button class="btn btn-outlined" onclick="vue.page = 'SignIn'">Sign In</button></center>
 
 
 
