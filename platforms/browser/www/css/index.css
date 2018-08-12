@@ -165,15 +165,24 @@ min-height: 5%;
     text-align: center;
     color: #951dc1;
     margin-top: -50px;
+<<<<<<< HEAD
     text-shadow: 2px 2px #b0c5fc;
+=======
+    text-shadow: 5px 5px #b0c5fc;
+>>>>>>> 20eace5231a3d479aa8b3342f34476141a560b84
     z-index: 1;
 }
 
 p{
     font-family: "Montserrat";
     color: #951dc1;
+<<<<<<< HEAD
 text-shadow: 2px 2px #b0c5fc;
 z-index: 1;
+=======
+    text-shadow: 5px 5px #b0c5fc;
+    z-index: 1;
+>>>>>>> 20eace5231a3d479aa8b3342f34476141a560b84
 }
 
 .signinsub {
@@ -181,6 +190,15 @@ z-index: 1;
     text-align: center;
     color: #951dc1;
     margin-top: -50px;
+<<<<<<< HEAD
     text-shadow: 2px 2px #b0c5fc;
+=======
+    text-shadow: 5px 5px #b0c5fc;
+>>>>>>> 20eace5231a3d479aa8b3342f34476141a560b84
     z-index: 1;
+}
+
+#googleMapsContainer {
+  width: 400px;
+  height: 400px;
 }

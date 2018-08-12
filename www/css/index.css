@@ -165,13 +165,16 @@ min-height: 5%;
     text-align: center;
     color: #951dc1;
     margin-top: -50px;
+
     text-shadow: 2px 2px #b0c5fc;
+
     z-index: 1;
 }
 
 p{
     font-family: "Montserrat";
     color: #951dc1;
+
 text-shadow: 2px 2px #b0c5fc;
 z-index: 1;
 }
@@ -181,6 +184,12 @@ z-index: 1;
     text-align: center;
     color: #951dc1;
     margin-top: -50px;
+
     text-shadow: 2px 2px #b0c5fc;
     z-index: 1;
+}
+
+#googleMapsContainer {
+  width: 400px;
+  height: 400px;
 }

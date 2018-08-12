@@ -421,7 +421,11 @@ p {
 }
 
 .btn-outlined {
+<<<<<<< HEAD
   background: (255, 255, 255, 0.3);
+=======
+  background-color: (255, 255, 255, 0.3);
+>>>>>>> 20eace5231a3d479aa8b3342f34476141a560b84
   border-color: #951dc1;
   border-width: medium;
   font-family: "Montserrat";
@@ -882,7 +886,11 @@ input[type="color"] {
   border-radius: 3px;
   border-width: medium;
   outline: none;
+<<<<<<< HEAD
   font-family: "Montserrat" ;
+=======
+  font-family: "Montserrat";
+>>>>>>> 20eace5231a3d479aa8b3342f34476141a560b84
   font-weight: bold;
 }
 
