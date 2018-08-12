@@ -382,6 +382,11 @@ p {
   opacity: .6;
 }
 
+.btn-outlined:hover, .btn-outlined.hover {
+  background-color: #b0c5fc;
+  color: #951dc1;
+}
+
 .btn-primary {
   color: #fff;
   background-color: #428bca;
@@ -416,8 +421,8 @@ p {
 }
 
 .btn-outlined {
-  background-color: transparent;
-  border-color: #FFFFFF;
+  background-color: (255, 255, 255, 0.3);
+  border-color: #951dc1;
   border-width: medium;
   font-family: "Montserrat";
   width: 200px;
@@ -425,7 +430,7 @@ p {
   margin-bottom: 10px;
   font-size: 18px;
   font-weight: bold;
-  color: #FFFFFF;
+  color: #951dc1;
    border-top-right-radius: 10px;
      border-top-left-radius: 10px;
      border-bottom-right-radius: 10px;
@@ -871,12 +876,12 @@ input[type="color"] {
   padding: 0 15px;
   margin-bottom: 15px;
   line-height: 21px;
-  background-color: #9bb6ff;
+  background-color: (255, 255, 255, 0.3);
   border: 1px solid #3c5db7;
   border-radius: 3px;
   outline: none;
   font-family: "Montserrat";
-  color: #3c5db7;
+  font-weight: bold;
 }
 
 input[type="search"] {
