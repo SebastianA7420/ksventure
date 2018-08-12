@@ -421,7 +421,7 @@ p {
 }
 
 .btn-outlined {
-  background: (255, 255, 255, 0.3);
+  background: rgba(255, 255, 255, 0.6);
   border-color: #951dc1;
   border-width: medium;
   font-family: "Montserrat";

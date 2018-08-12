@@ -1,9 +1,9 @@
 vue.email = `
 
-<div style="background:linear-gradient(to bottom right, #951dc1, #3c5db7);">
+<div style="background:linear-gradient(to bottom right, #e6a3ff, #b0c5fc);">
 <br>
 
-<center><img id="venture" src="img/logooo.png"></center>
+<center><img id="venture" src="splash.png"></center>
 
 
     <h1 class="name">Venture</h1>

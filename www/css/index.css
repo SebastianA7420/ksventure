@@ -1,10 +1,15 @@
 #video {
     position: fixed;
-    min-width: 100%;
-    min-height: 100%;
+    min-width: 50%;
+    min-height: 50%;
     top: 0;
     left: 0;
     z-index: -1;
+    -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
 }
 
 /* body{
