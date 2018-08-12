@@ -5,28 +5,12 @@ vue.userpass = `
  <center><img id="venture" src="img/logooo.png"></center>
 
     <h1 class="name">Venture</h1>
-
-<<<<<<< HEAD
     <br><br>
     
     <h4 class="catchphrase">Do you have what it takes?</h4>
 
     <br>
-<!-- <form action="/action_page.php">
-     <center>
-	<label for="uname"></label>
-    <input type="text" placeholder="Choose Username" name="uname" required>
-    </center>
 
-	<center><label for="psw"></label>
-    <input type="password" placeholder="Choose Password" name="psw" required></center>
-
-     
-    <br><br>
-
-    <center><button class="btn btn-block" onclick="vue.page = 'HomePage'" type="submit">Sign Up</button></center>
-
-    </form> -->
 
 <style>
 
@@ -75,11 +59,6 @@ span.psw {
 </head>
 <body>
 
-=======
-    <br><br>
-
-    <h4 class="catchphrase">Do you have what it takes?</h4>
->>>>>>> 20eace5231a3d479aa8b3342f34476141a560b84
 
     <br>
 

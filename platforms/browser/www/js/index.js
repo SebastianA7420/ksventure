@@ -1,21 +1,6 @@
 window.vueControllers = {};
 
 var vue = new Vue ({
-
-    el: '#app',
-    data: {
-        message: 'click here', page: ''
-    },
-    updated: function() {
-      if (window.vueControllers[vue.page]) {
-        window.vueControllers[vue.page]();
-      }
-    }
-});
-
-// This is where controller code will live for each view
-window.vueControllers = {};
-
                 el: '#app',
                 data: {
                 	isSignedIn: false,
@@ -42,8 +27,6 @@ window.vueControllers = {};
                   }
                 }
             });
-<<<<<<< HEAD
-=======
 
 // phonegap code
 var app = {
@@ -77,4 +60,3 @@ var app = {
         console.log('Received Event: ' + id);
     }
 };
->>>>>>> 20eace5231a3d479aa8b3342f34476141a560b84
