@@ -58,10 +58,10 @@
       <div v-if="page ==='feed' " v-html="feed"></div>
 
       <div v-if="isSignedIn">
-        <nav class="bar bar-tab">
+        <nav class="bar bar-tab" style="font-family: Montserrat;">
         <center>
         <a class="tab-item" onclick="vue.page = 'feed'" data-transition="slide-in">
-          <span><img class="icon" src="../img/home.png"</span>
+          <span><img class="icon" src="../img/home.svg"></span>
           <span class="tab-label">Feed</span>
         </a>
         <a class="tab-item" onclick="vue.page = 'camera'" data-transition="slide-in">
@@ -69,11 +69,11 @@
           <span class="tab-label">Camera</span>
         </a>
         <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
-          <span><img class="icon" src="../img/location.png"></span>
+          <span><img class="icon" src="../img/location.jpg"></span>
           <span class="tab-label">View Adventures</span>
         </a>
         <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
-          <span><img class="icon" src="../img/profile.png"></span>
+          <span><img class="icon" src="../img/profile1.jpg"></span>
           <span class="tab-label">Profile</span>
         </a>
         </center>
@@ -115,6 +115,8 @@
         <script  type="text/javascript" src="js/viewAdventures.js"></script>
         
         <script  type="text/javascript" src="js/camera.js"></script>
+
+        <script  type="text/javascript" src="js/feed.js"></script>
 
 
 

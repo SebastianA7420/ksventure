@@ -1,6 +1,7 @@
 vue.viewAdventures = `
 <div style="font-family: Montserrat;">
- <h1>Adventures availible for you to complete</h1>
+ <br>
+ <h1 class="catchphrase">Adventures</h1>
  <ul class="table-view">
    <li class="table-view-cell media">
      <a class="navigate-right">
