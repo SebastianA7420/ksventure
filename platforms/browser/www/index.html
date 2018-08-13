@@ -36,6 +36,7 @@
         <option>SignIn</option>
         <option>viewAdventures</option>
         <option>camera</option>
+        <option>Feed</option>
       </select>
       {{ page }}
 
@@ -54,24 +55,25 @@
       <div v-if="page ==='SignIn'" v-html="signin"></div>
       <div v-if="page ==='viewAdventures'" v-html="viewAdventures"></div>
       <div v-if="page ==='camera'" v-html="camera"></div>
+      <div v-if="page ==='feed' " v-html="feed"></div>
 
       <div v-if="isSignedIn">
         <nav class="bar bar-tab">
         <center>
-        <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
-          <span></span>
+        <a class="tab-item" onclick="vue.page = 'feed'" data-transition="slide-in">
+          <span><img class="icon" src="../img/home.png"</span>
           <span class="tab-label">Feed</span>
         </a>
         <a class="tab-item" onclick="vue.page = 'camera'" data-transition="slide-in">
-          <span class="icon icon-person"></span>
+          <span><img class="icon" src="../img/camera.png"></span>
           <span class="tab-label">Camera</span>
         </a>
         <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
-          <span class="icon icon-star-filled"></span>
+          <span><img class="icon" src="../img/location.png"></span>
           <span class="tab-label">View Adventures</span>
         </a>
         <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
-          <span class="icon icon-person"></span>
+          <span><img class="icon" src="../img/profile.png"></span>
           <span class="tab-label">Profile</span>
         </a>
         </center>
@@ -111,6 +113,7 @@
         <script type="text/javascript" src="js/signin.js"></script>
 
         <script  type="text/javascript" src="js/viewAdventures.js"></script>
+        
         <script  type="text/javascript" src="js/camera.js"></script>
 
 
