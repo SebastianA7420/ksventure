@@ -1,6 +1,6 @@
 vue.email = `
 
-<div style="background:linear-gradient(to bottom right, #e6a3ff, #b0c5fc);">
+<div id="backgnd">
 <br>
 
 <center><img id="venture" src="splash.png"></center>
@@ -24,7 +24,7 @@ vue.email = `
 <center><p>Do you already have an account?</p> <button class="btn btn-outlined" onclick="vue.page = 'SignIn'">Sign In</button></center>
 
 
-<br><br><br>
+<br><br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 </div>
 
 `;

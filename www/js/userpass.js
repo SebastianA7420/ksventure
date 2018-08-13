@@ -1,5 +1,5 @@
 vue.userpass = `
-<div style="background:linear-gradient(to bottom right, #e6a3ff, #b0c5fc);">
+<div id="backgnd">
 
 <br>
 
@@ -82,6 +82,6 @@ span.psw {
 
 
 
-<br><br><br> 
+<br><br><br>  <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 </div>
 `;

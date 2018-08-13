@@ -1,8 +1,10 @@
 
 
 vue.startPage = `
+	
+<div class="content-wrapper">
 	<!--<video autoplay muted loop id="video">
-		<source src="videos/Image from iOS.mp4" type="video/mp4">
+		<source src="../videos/Image from iOS.mp4" type="video/mp4">
 	</video>-->
 
 <br>
@@ -16,4 +18,5 @@ vue.startPage = `
 <center><button class="btn btn-outlined" onclick="vue.page = 'SignUpEmail'">Join the Adventure</button></center>
 <br><br>
 <center><p>Do you already have an account?</p> <button class="btn btn-outlined" onclick="vue.page = 'SignIn'">Sign In</button></center>
+</div>
 `;

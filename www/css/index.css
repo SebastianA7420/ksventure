@@ -1,3 +1,12 @@
+
+#backgnd {
+     background: linear-gradient(to bottom right, #e6a3ff, #b0c5fc);
+     height: 100%; 
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #video {
     position: fixed;
     min-width: 50%;

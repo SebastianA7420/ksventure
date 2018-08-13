@@ -1,30 +1,34 @@
 vue.feed = `
 <ul class="table-view">
-  <h2 class="catchphrase">Feed</h2>
+  <br><br><br><br>
+  <h1 class="catchphrase">Feed</h2>
   <li class="table-view-cell media">
     <a class="navigate-right">
-      <img class="media-object pull-left" src="http://placehold.it/42x42">
+      <img class="media-object pull-left" src="outfit.jpg">
       <div class="media-body">
-        Item 1
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+        Strangers Choose My Outfit at Primark!
+        <p>By Samantha Somebody</p>
+        <p>Check out my fun adventure!</p>
       </div>
     </a>
   </li>
   <li class="table-view-cell media">
     <a class="navigate-right">
-      <img class="media-object pull-left" src="http://placehold.it/42x42">
+      <img class="media-object pull-left" src="museum.jpg">
       <div class="media-body">
-        Item 1
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+        Look What I Found at the Museum of Natural History!
+        <p>By Joe Bob</p>
+        <p>It took me so long to find this statue, but it was so worth the wait...</p>
       </div>
     </a>
   </li>
   <li class="table-view-cell media">
     <a class="navigate-right">
-      <img class="media-object pull-left" src="http://placehold.it/42x42">
+      <img class="media-object pull-left" src="bridge.jpg">
       <div class="media-body">
-        Item 1
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore. Lorem ipsum dolor sit amet.</p>
+        Running Through the Brooklyn Bridge!
+        <p>By RyanChris Blah</p>
+        <p>I made a new friend while I was running the bridge! And I feel so active ;)</p>
       </div>
     </a>
   </li>

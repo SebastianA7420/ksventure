@@ -2,7 +2,7 @@ vue.homepage = `
 
 <nav class="bar bar-tab">
   <center>
-  <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
+  <a class="tab-item active" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
     <span class="icon" <img src=</span>
     <span class="tab-label">Feed</span>
   </a>
@@ -20,3 +20,5 @@ vue.homepage = `
   </a>
   </center>
 </nav> `
+
+
