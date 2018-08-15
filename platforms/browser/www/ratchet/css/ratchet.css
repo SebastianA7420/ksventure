@@ -235,7 +235,7 @@ th {
 }
 
 body {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   right: 0;
   bottom: 0;
@@ -796,7 +796,7 @@ input[type="button"] {
 
 .table-view .media,
 .table-view .media-body {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .table-view .media-object.pull-left {

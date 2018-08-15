@@ -1,3 +1,4 @@
+
 vue.feed = `
 <ul class="table-view">
   <br><br><br><br>

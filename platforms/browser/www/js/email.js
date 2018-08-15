@@ -1,7 +1,7 @@
 vue.email = `
 
 <div id="backgnd">
-<br>
+<br><br><br><br><br><br><br><br>
 
 <center><img id="venture" src="splash.png"></center>
 
