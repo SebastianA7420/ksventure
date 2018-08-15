@@ -1,5 +1,5 @@
 vue.signin = `
-<div style="background:linear-gradient(to bottom right, #e6a3ff, #b0c5fc);">
+<div id="backgnd"> 
 <br>
 <center><img id="venture" src="splash.png"></center>
     <h1 class="name">Venture</h1>
@@ -13,5 +13,6 @@ vue.signin = `
     <center><input type="password" placeholder="Password"></center>
     <br>
     <center><button class="btn btn-outlined" onclick="vue.signInFn()">Sign In</button></center>
+    <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
     </div>
     `

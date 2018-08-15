@@ -235,7 +235,7 @@ th {
 }
 
 body {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
   right: 0;
   bottom: 0;
@@ -519,6 +519,8 @@ input[type="button"] {
   padding-left: 10px;
   background-color: white;
   border-bottom: 1px solid #ddd;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
 
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -578,6 +580,9 @@ input[type="button"] {
   table-layout: fixed;
   border-top: 1px solid #ddd;
   border-bottom: 0;
+  background: linear-gradient(to bottom right, #e6a3ff, #b0c5fc);
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
 }
 .bar-tab .tab-item {
   display: table-cell;
@@ -749,7 +754,6 @@ input[type="button"] {
   margin-bottom: 15px;
   list-style: none;
   background-color: #fff;
-  border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
 }
 
@@ -792,7 +796,7 @@ input[type="button"] {
 
 .table-view .media,
 .table-view .media-body {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 
 .table-view .media-object.pull-left {
