@@ -13,7 +13,6 @@ var vue = new Vue ({
         					viewAdventures: '',
         					camera: '',
                   feed: '',
-                  watchAdventures: '',
                   leaderboards: ''
                 },
                 methods: {

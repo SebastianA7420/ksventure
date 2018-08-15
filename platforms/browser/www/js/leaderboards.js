@@ -1,11 +1,4 @@
 vue.leaderboards = `
-<nav class="bar bar-standard">
-  <div class="segmented-control">
-    <a class="control-item" onclick="vue.page = 'watchAdventures'">Entries</a>
-    <a class="control-item active" onclick="vue.page = 'leaderboard'">Leaderboards</a>
-  </div>
-</nav>
-
 <div style="font-family: Montserrat; padding-top: 75px;">
   <ul v-hide="vue.showEntries" class="table-view">
     <li class="table-view-cell media">

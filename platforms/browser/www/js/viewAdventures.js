@@ -3,6 +3,7 @@ vue.viewAdventures = `
 <a id="link_Met" href="#Met">1</a>
 <a id="link_Dream" href="#Dream">2</a>
 <a id="link_Needle" href="#Needle">3</a>
+<a id="link_AppNexus" href="#AppNexus">4</a>
 </div>
 
 <div id="Met" class="modal">
@@ -37,6 +38,17 @@ vue.viewAdventures = `
     <p class="content-padded">Go to Central Park and find Cleopatra's Needle. Film yourself holding the needle by the point.</p>
   </div>
 </div>
+
+<div id="AppNexus" class="modal">
+  <header class="bar bar-nav">
+    <a class="icon icon-close pull-right" href="#AppNexus"></a>
+    <h1 class="title">Demo at AppNexus!</h1>
+  </header>
+
+  <div class="content">
+    <p class="content-padded">HerpDerpBloop</p>
+  </div>
+</div>
 `;
 
 var NewYork = {lat: 40.730610, lng: -73.935242};
@@ -55,7 +67,12 @@ var adventures = [
     label: 'Needle',
     place: {lat: 40.7796, lng: -73.9654},
     info: `Go to Central Park and find Cleopatra's Needle. Film yourself holding the needle by the point.`
-  }
+  },
+  {
+    label: 'AppNexus',
+    place: {lat: 40.7418968, lng: -73.9909143},
+    info: ``
+  },
 ];
 
 var map;
@@ -82,8 +99,8 @@ function initMap() {
       maxWidth: 200
     });
 
-    infoWindows[adventure.label].isOpen = false;
-    // infoWindows[adventure.label] = {isOpen: false};
+   // infoWindows[adventure.label].isOpen = false;
+    infoWindows[adventure.label] = {isOpen: false};
 
     marker.addListener('click', bounceAndInfo);
     markersArray.push(marker);
@@ -113,12 +130,12 @@ function bounceAndInfo() {
   var infoWindow = infoWindows[this.label];
   if (infoWindow.isOpen) {
     this.setAnimation(null);
-    infoWindow.close();
+   // infoWindow.close();
     infoWindow.isOpen = false;
   } else {
     this.setAnimation(google.maps.Animation.BOUNCE);
-    infoWindow.open(map, this);
-    // document.getElementById('link_' + this.label).click();
+    //infoWindow.open(map, this);
+    document.getElementById('link_' + this.label).click();
     infoWindow.isOpen = true;
   }
 }

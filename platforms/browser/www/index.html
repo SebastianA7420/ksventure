@@ -56,7 +56,6 @@
       <div v-if="page ==='viewAdventures'" v-html="viewAdventures"></div>
       <div v-if="page ==='camera'" v-html="camera"></div>
       <div v-if="page ==='feed' " v-html="feed"></div>
-      <div v-if="page ==='watchAdventures'" v-html="watchAdventures"></div>
       <div v-if="page ==='leaderboards'" v-html="leaderboards"></div>
 
       <div v-if="isSignedIn">
@@ -74,7 +73,7 @@
           <span><img class="icon" src="location.jpg"></span>
           <span class="tab-label"></span>
         </a>
-        <a class="tab-item" onclick="vue.page = 'watchAdventures'" data-transition="slide-in">
+        <a class="tab-item" onclick="vue.page = 'leaderboards'" data-transition="slide-in">
           <span><img class="icon" src="location.jpg"></span>
           <span class="tab-label"></span>
         </a>
