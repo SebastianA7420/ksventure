@@ -8,6 +8,8 @@ vue.startPage = `
 	</video>-->
 
 <br><br><br><br><br><br><br><br>
+
+
     <center><img id="venture" src="splash.png"></center>
 <h2 class="name">Venture</h2>
 

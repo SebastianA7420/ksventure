@@ -1,5 +1,6 @@
 
 vue.feed = `
+<div id="backgnd">
 <ul class="table-view">
   <br><br><br><br>
   <h1 class="catchphrase">Feed</h2>
@@ -33,5 +34,16 @@ vue.feed = `
       </div>
     </a>
   </li>
+  <li class="table-view-cell media">
+    <a class="navigate-right">
+      <img class="media-object pull-left" src="DanceChallenge.jpg">
+      <div class="media-body">
+        Choreographing My Own Dance at Times Square!
+        <p>By John DaBest</p>
+        <p>I've never really danced before, but I got a few people to help me create my own cool little routine! Check it out.</p>
+      </div>
+    </a>
+  </li>
 </ul>
+</div>
 `

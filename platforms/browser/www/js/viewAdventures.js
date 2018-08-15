@@ -9,29 +9,29 @@ vue.viewAdventures = `
 <div id="Met" class="modal">
   <header class="bar bar-nav">
     <a class="icon icon-close pull-right" href="#Met"></a>
-    <h1 class="title">Jurassic Park @ the Natural History Museum</h1>
+    <h1 class="titleAd">Jurassic Park @ the Natural History Museum</h1>
   </header>
 
   <div class="content">
-    <p class="content-padded">Go to the Museum of Natural History and find the scariest dinosaur fossil. Film yourself running away from your chosen fossil in a frightened way.</p>
+    <p class="content-padded">Go to the Museum of Natural History and find the scariest dinosaur fossil. Get a stranger, and pretend to run away like the dinosaur is about to chase you!</p>
   </div>
 </div>
 
 <div id="Dream" class="modal">
   <header class="bar bar-nav">
     <a class="icon icon-close pull-right" href="#Dream"></a>
-    <h1 class="title">Dream Machine in Williamsburg</h1>
+    <h1 class="titleAd">Dream Machine in Williamsburg</h1>
   </header>
 
   <div class="content">
-    <p class="content-padded">Theres a pop-up exhibit in Williamsburg, Brooklyn called Dream Machine. Go there and ask 3 people to show the best photo they took inside.</p>
+    <p class="content-padded">Theres a pop-up exhibit in Williamsburg, Brooklyn called Dream Machine. Go there and ask 3 people to show the best photo they took inside, and give a silly review of each one! </p>
   </div>
 </div>
 
 <div id="Needle" class="modal">
   <header class="bar bar-nav">
     <a class="icon icon-close pull-right" href="#Needle"></a>
-    <h1 class="title">Cleo's Needle in Central Park</h1>
+    <h1 class="titleAd">Cleo's Needle in Central Park</h1>
   </header>
 
   <div class="content">
@@ -42,11 +42,13 @@ vue.viewAdventures = `
 <div id="AppNexus" class="modal">
   <header class="bar bar-nav">
     <a class="icon icon-close pull-right" href="#AppNexus"></a>
-    <h1 class="title">Demo at AppNexus!</h1>
+    <h1 class="titleAd"><center>Demo at AppNexus!</center></h1>
   </header>
 
   <div class="content">
-    <p class="content-padded">HerpDerpBloop</p>
+    <p class="content-padded" style="font-size: 40px" > <br><br><br><br><br><br><br><br><center>Go to AppNexus and act like you are giving a pitch presentation for a make-believe app!</center></p>
+  <br><br><br><br><center><div style="font-size: 36px">Amount of Points: 100</div><br><br><br>
+  <center><button class="btn-outlined">Accept</button></center>
   </div>
 </div>
 `;

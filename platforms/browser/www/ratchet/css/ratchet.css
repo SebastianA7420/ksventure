@@ -266,6 +266,8 @@ a:active {
   overflow: auto;
   -webkit-overflow-scrolling: touch;
   background-color: #fff;
+  font-family: "Montserrat";
+  color: #951dc1;
 }
 
 .content > * {
@@ -518,7 +520,6 @@ input[type="button"] {
   padding-right: 10px;
   padding-left: 10px;
   background-color: white;
-  border-bottom: 1px solid #ddd;
   border-top-right-radius: 3px;
   border-top-left-radius: 3px;
 
@@ -565,6 +566,23 @@ input[type="button"] {
   color: #000;
   text-align: center;
   white-space: nowrap;
+}
+
+
+.titleAd {
+   position: absolute;
+  display: block;
+  width: 100%;
+  padding: 50px;
+  margin: 10px -10px;
+  font-size: 70px;
+  font-weight: 500;
+  line-height: 44px;
+  text-align: center;
+  white-space: nowrap;
+  font-family: "Montserrat";
+  color: #951dc1;
+  text-shadow: 2px 2px #b0c5fc;
 }
 
 .title a {
