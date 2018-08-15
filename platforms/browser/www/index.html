@@ -36,11 +36,8 @@
         <option>SignIn</option>
         <option>viewAdventures</option>
         <option>camera</option>
-<<<<<<< HEAD
         <option>myProfile</option>
-=======
         <option>Feed</option>
->>>>>>> b2a07f98e67e39315f2fee53fc1ca8085e9d5dd8
       </select>
       {{ page }} -->
 
@@ -59,12 +56,9 @@
       <div v-if="page ==='SignIn'" v-html="signin"></div>
       <div v-if="page ==='viewAdventures'" v-html="viewAdventures"></div>
       <div v-if="page ==='camera'" v-html="camera"></div>
-<<<<<<< HEAD
       <div v-if="page ==='myProfile'" v-html="myProfile"></div>
-=======
       <div v-if="page ==='feed' " v-html="feed"></div>
       <div v-if="page ==='leaderboards'" v-html="leaderboards"></div>
->>>>>>> b2a07f98e67e39315f2fee53fc1ca8085e9d5dd8
 
       <div v-if="isSignedIn">
         <nav class="bar bar-tab" style="font-family: Montserrat;">
@@ -82,50 +76,16 @@
           <span class="tab-label"></span>
         </a>
         <a class="tab-item" onclick="vue.page = 'leaderboards'" data-transition="slide-in">
-          <span><img class="icon" src="location.jpg"></span>
+          <span><img class="icon" src="Leaderboard.png"></span>
           <span class="tab-label"></span>
         </a>
-        <a class="tab-item" onclick="vue.page = 'viewAdventures'" data-transition="slide-in">
+        <a class="tab-item" onclick="vue.page = 'myProfile'" data-transition="slide-in">
           <span><img class="icon" src="profile1.jpg"></span>
           <span class="tab-label"></span>
         </a>
         </center>
       </nav>
       </div>
-        <div class="column">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/falls2.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
-    <img src="/w3images/nature.jpg" style="width:100%">
-    <img src="/w3images/mist.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-    <img src="/w3images/ocean.jpg" style="width:100%">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-    <img src="/w3images/mountainskies.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-  </div>  
-  <div class="column">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/falls2.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
-    <img src="/w3images/nature.jpg" style="width:100%">
-    <img src="/w3images/mist.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-    <img src="/w3images/ocean.jpg" style="width:100%">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-    <img src="/w3images/mountainskies.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-  </div>
 </div>
     </div>
   </div>
@@ -152,12 +112,9 @@
 
         <script  type="text/javascript" src="js/camera.js"></script>
 
-<<<<<<< HEAD
         <script  type="text/javascript" src="js/myProfile.js"></script>
 
-=======
         <script  type="text/javascript" src="js/feed.js"></script>
->>>>>>> b2a07f98e67e39315f2fee53fc1ca8085e9d5dd8
 
         <script  type="text/javascript" src="js/leaderboards.js"></script>
 
