@@ -2,7 +2,7 @@ vue.viewAdventure2 = `
 
 <h1>My First Google Map</h1>
 
-<div id="googleMap" style="width:100%;height:400px;"></div>
+<div id="googleMap" style="width:100%;height:100%;"></div>
 
 <script>
 function myMap() {

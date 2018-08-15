@@ -1,9 +1,9 @@
 vue.signin = `
 <div id="backgnd"> 
-<br>
+<br><br><br><br><br><br><br>
 <center><img id="venture" src="splash.png"></center>
     <h1 class="name">Venture</h1>
-<br><br>
+<br>
 
      <h4 class="catchphrase">Do you have what it takes?</h4>
 <br><br><br><br>

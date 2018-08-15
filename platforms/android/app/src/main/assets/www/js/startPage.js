@@ -7,7 +7,9 @@ vue.startPage = `
 		<source src="../videos/Image from iOS.mp4" type="video/mp4">
 	</video>-->
 
-<br>
+<br><br><br><br><br><br><br><br>
+
+
     <center><img id="venture" src="splash.png"></center>
 <h2 class="name">Venture</h2>
 
