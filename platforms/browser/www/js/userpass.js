@@ -1,7 +1,7 @@
 vue.userpass = `
 <div id="backgnd">
 
-<br>
+<br><br><br><br><br><br>
 
  <center><img id="venture" src="splash.png"></center>
 
@@ -71,9 +71,9 @@ span.psw {
     <center><input type="password" placeholder="Choose Password" name="psw" required></center>
 
     <center><button type="submit" class="btn btn-outlined" onclick="vue.signInFn()">Sign Up</button></center>
-    <label>
+    <!--<label>
       <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label>
+    </label>-->
   </div>
 
 
