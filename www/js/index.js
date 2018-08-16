@@ -55,6 +55,7 @@ var app = {
     // function, we must explicity call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
+        app.loadGoogleMaps();
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
@@ -66,5 +67,12 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+    },
+    loadGoogleMaps: function() {
+      var script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyB4q0SgfPnI_2NCV3cHykBOeknS6nbXOAg&callback=initMap';
+      console.log('appending google map script!');
+      document.body.appendChild(script);
     }
 };

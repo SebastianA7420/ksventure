@@ -150,7 +150,7 @@ function bounceAndInfo() {
   }
 }
 
-google.maps.event.addDomListener(window, 'load', initMap);
+// google.maps.event.addDomListener(window, 'load', initMap);
 
 // <div style="font-family: Montserrat;">
 //  <br>
