@@ -364,6 +364,20 @@ module.exports = [
     "clobbers": [
       "window.FileTransfer"
     ]
+  },
+  {
+    "id": "es6-promise-plugin.Promise",
+    "file": "plugins/es6-promise-plugin/www/promise.js",
+    "pluginId": "es6-promise-plugin",
+    "runs": true
+  },
+  {
+    "id": "phonegap-plugin-media-stream.MediaDevices",
+    "file": "plugins/phonegap-plugin-media-stream/www/android/MediaDevices.js",
+    "pluginId": "phonegap-plugin-media-stream",
+    "clobbers": [
+      "navigator.mediaDevices"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -378,7 +392,10 @@ module.exports.metadata =
   "cordova-plugin-device-orientation": "1.0.7",
   "cordova-plugin-dialogs": "1.2.1",
   "cordova-plugin-file": "6.0.1",
-  "cordova-plugin-file-transfer": "1.5.1"
+  "cordova-plugin-file-transfer": "1.5.1",
+  "es6-promise-plugin": "4.2.2",
+  "phonegap-plugin-media-stream": "1.2.1",
+  "phonegap-plugin-media-recorder": "1.1.0"
 };
 // BOTTOM OF METADATA
 });

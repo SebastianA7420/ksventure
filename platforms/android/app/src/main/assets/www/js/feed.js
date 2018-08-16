@@ -1,7 +1,6 @@
 
 vue.feed = `
 
-
 <header class="bar bar-nav" style="font-size:50px; font-family: Squimpy;
     text-shadow: 5px 5px #b0c5fc;">
   <img id="venture" src="splash.png" style="width:10%; float:left;">
@@ -65,16 +64,5 @@ vue.feed = `
       </div>
     </a>
   </li>
-  <li class="table-view-cell media">
-    <a class="navigate-right">
-      <img class="media-object pull-left" src="DanceChallenge.jpg">
-      <div class="media-body">
-        Choreographing My Own Dance at Times Square!
-        <p>By John DaBest</p>
-        <p>I've never really danced before, but I got a few people to help me create my own cool little routine! Check it out.</p>
-      </div>
-    </a>
-  </li>
 </ul>
-
 `
