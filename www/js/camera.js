@@ -30,7 +30,7 @@ window.vueControllers.camera = function() {
       navigator.mediaDevices.getUserMedia({
         'audio': true,
         'video': {
-            facingMode: 'user'
+            facingMode: { exact: "environment" }
         }
       }).then(function(mediastream) {
           var options = { mimeType : 'video/quicktime'};

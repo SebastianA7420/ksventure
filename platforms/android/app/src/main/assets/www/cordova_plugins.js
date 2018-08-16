@@ -395,7 +395,8 @@ module.exports.metadata =
   "cordova-plugin-file-transfer": "1.5.1",
   "es6-promise-plugin": "4.2.2",
   "phonegap-plugin-media-stream": "1.2.1",
-  "phonegap-plugin-media-recorder": "1.1.0"
+  "phonegap-plugin-media-recorder": "1.1.0",
+  "cordova-plugin-whitelist": "1.3.4-dev"
 };
 // BOTTOM OF METADATA
 });
