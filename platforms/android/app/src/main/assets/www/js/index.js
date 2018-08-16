@@ -20,7 +20,14 @@ var vue = new Vue ({
                 		console.log('hi!');
                 		this.page = "feed";
                 		this.isSignedIn = true;
+
                 	}
+                    
+                    //logInFn: function (event) {
+                        //console.log('hi!');
+                        //this.page ="startPage";
+                        //this.isSignedIn = false;
+                    //}
                 },
                 updated: function() {
                   if (window.vueControllers[vue.page]) {

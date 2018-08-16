@@ -14,7 +14,9 @@ vue.startPage = `
 <h2 class="name">Venture</h2>
 
 
-<br><br>
+<br><br><br><br><br><br>
+
+
     <h4 class="catchphrase">Do you have what it takes?</h4>
     <br>
 <center><button class="btn btn-outlined" onclick="vue.page = 'SignUpEmail'">Join the Adventure</button></center>

@@ -14,7 +14,8 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:200" rel="stylesheet">
+   
    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
    <meta name="mobile-web-app-capable" content="yes">
 
@@ -45,8 +46,13 @@
 
       <div v-show="page === 'viewAdventures'" id="googleMapsContainer">
         <div id="googleMap" style="width: 100%; height:100%"></div>
+      <!--This Id is for the profile page
+      -->
       </div>
-
+      <div v-show="page === 'myProfile'" id="navbarcontainer">
+        <div id="navbar" style="width: 50%; height:100%"></div>
+      </div>
+      
       <video autoplay muted loop id="video" v-if="page === 'Start'">
       		<source src="videos/Image from iOS.mp4" type="video/mp4">
       </video>
@@ -61,7 +67,6 @@
       <div v-if="page ==='myProfile'" v-html="myProfile"></div>
       <div v-if="page ==='feed' " v-html="feed"></div>
       <div v-if="page ==='leaderboards'" v-html="leaderboards"></div>
-
       <div v-if="isSignedIn">
         <nav class="bar bar-tab" style="font-family: Montserrat;">
         <center>

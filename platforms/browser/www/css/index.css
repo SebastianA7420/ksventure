@@ -7,6 +7,7 @@
     background-size: cover;
 }
 
+
 .thumbnail {
     width: 300px;
     height: 160px;
@@ -74,7 +75,7 @@
 #venture {
 min-width: 5%;
 min-height: 5%;
-font-family: 'Archivo', sans-serif;
+
 
 }
 
@@ -202,6 +203,78 @@ font-family: 'Archivo', sans-serif;
      z-index: 1;
 }
 
+
+
+#plus{
+    background-color:#951dc1; 
+    opacity: 0.7; 
+    height: 70px;
+    width: 100px;
+}
+
+#signin:hover{
+    box-shadow: 4px 4px;
+    background-color: red;
+    opacity: 0.7;
+    font-family: "Montserrat";
+    border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     border-bottom-right-radius: 10px;
+     border-bottom-left-radius: 10px;
+     z-index: 1;
+}
+
+#wowc {
+
+    border-radius: 50%;
+}
+
+#togglea{
+    background-color: blue;
+    width: 90px;
+    height: 40px;
+
+}
+
+#togglen{
+    width: 70px;
+    height: 45px;
+
+}
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.tit1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+
+    text-align: center;
+    color: white;
+    
+    text-shadow: 2px 2px #b0c5fc;
+
+    z-index: 1;
+}
+
+.tit2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+
+    text-align: center;
+    color: white;
+    
+    text-shadow: 5px 5px #b0c5fc;
+
+    z-index: 1;
+}
+
+.bar1 {
+  padding-top: 10px;
+background:linear-gradient(to bottom right, #e6a3ff, #b0c5fc);}
 @font-face{
     font-family: Squimpy;
     src: url(../ratchet/fonts/Squimpy.otf);
@@ -223,6 +296,7 @@ font-family: 'Archivo', sans-serif;
     font-family: "Montserrat";
     text-align: center;
     color: #951dc1;
+    font-size: 50px;
     margin-top: -50px;
 
     text-shadow: 2px 2px #b0c5fc;
@@ -270,4 +344,3 @@ background: black;
   transform: translateX(-50%);
 
 
-}
