@@ -9,11 +9,13 @@ vue.viewAdventures = `
 <div id="Met" class="modal">
   <header class="bar bar-nav">
     <a class="icon icon-close pull-right" href="#Met"></a>
-    <h1 class="titleAd">Jurassic Park @ the Natural History Museum</h1>
+    <h1 class="titleAd" style="font-size: 30px;">Jurassic Park @ the Natural History Museum</h1>
   </header>
 
   <div class="content">
-    <p class="content-padded">Go to the Museum of Natural History and find the scariest dinosaur fossil. Get a stranger, and pretend to run away like the dinosaur is about to chase you!</p>
+    <p class="content-padded" style="font-size: 40px"> <br><br><br><br><br><br><br><br> <center>Go to the Museum of Natural History and find the scariest dinosaur fossil. Get a stranger, and pretend to run away like the dinosaur is about to chase you!</center></p>
+  <br><br><br><br><center><div style="font-size: 36px">Amount of Points: 100</div><br><br><br>
+  <center><button class="btn-outlined">Venture!</button></center>
   </div>
 </div>
 
