@@ -7,10 +7,14 @@ vue.camera=`
 
 
 `;
+
+var mediaRecorder;
 var record = function() {
   //fnct
-  alert('hi');
+  vue.page = 'feed';
 };
+
+
 window.vueControllers.camera = function() {
     const constraints = {
        video: true
@@ -18,6 +22,19 @@ window.vueControllers.camera = function() {
 
      const video = document.querySelector('video');
 
-     navigator.mediaDevices.getUserMedia(constraints).
-       then((stream) => {video.srcObject = stream});
+     try {
+       navigator.mediaDevices.getUserMedia(constraints).
+         then((stream) => {video.srcObject = stream});
+     } catch(e) {
+      console.log('try mobile version instead');
+      navigator.mediaDevices.getUserMedia({
+        'audio': true,
+        'video': {
+            facingMode: 'user'
+        }
+      }).then(function(mediastream) {
+          var options = { mimeType : 'video/quicktime'};
+          mediaRecorder = new MediaRecorder(mediastream, options);
+      });
+    }
 };
