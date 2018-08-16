@@ -558,12 +558,12 @@ input[type="button"] {
   position: absolute;
   display: block;
   width: 100%;
-  padding: 0;
+  padding: 15px;
   margin: 0 -10px;
-  font-size: 17px;
+  font-size: 50px;
   font-weight: 500;
   line-height: 44px;
-  color: #000;
+  color: #951dc1;
   text-align: center;
   white-space: nowrap;
 }
@@ -819,6 +819,7 @@ input[type="button"] {
 
 .table-view .media-object.pull-left {
   margin-right: 10px;
+  width: 300px;
 }
 .table-view .media-object.pull-right {
   margin-left: 10px;
