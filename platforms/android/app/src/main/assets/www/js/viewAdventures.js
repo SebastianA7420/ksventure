@@ -50,7 +50,7 @@ vue.viewAdventures = `
   <div class="content">
     <p class="content-padded" style="font-size: 40px" > <br><br><br><br><br><br><br><br><center>Go to AppNexus and act like you are giving a pitch presentation for a make-believe app!</center></p>
   <br><br><br><br><center><div style="font-size: 36px">Amount of Points: 100</div><br><br><br>
-  <center><button class="btn-outlined">Venture!</button></center>
+  <center><button class="btn-outlined" onclick="vue.page = 'camera'">Accept</button></center>
   </div>
 </div>
 `;
