@@ -18,14 +18,14 @@ vue.feed = `
   			</header>
 
   		<div class="content">
-    			<video id="feedVideo" controls="controls" preload="none" onclick="this.play()">
- 					<source type="video/mp4" src="../videos/hmchallenge.mp4"></video>
+    			<center><video id="feedVideo" controls="controls" preload="none" onclick="this.play()">
+ 					<source type="video/mp4" src="../videos/h&m.mp4"></video></center>
+ 					 <p class="content-padded" style="font-size: 10px; margin-bottom: -10px;"><center style="font-size: 25px; margin-right: 20px;">We had some cool dudes choose our outfits to wear on the H&M Runway in Times Square!</center></p> <br>
  			 </div>
 	</div>
       <div class="media-body">
-       <center> <p style="font-size: 28px; line-height: 1.25;">Mannequin Challenge At H&M Runway!</p>
+       <center> <p style="font-size: 28px; line-height: 1.25;">Mannequin Challenge At <span><img class="hmLogo" src="hm.png" style="width: 40px;"></span> Runway!</p>
         <p>By Sebastian Trash</p>
-        <p>We had some cool dudes choose our outfits to wear on the H&M Runway in Times Square!</p> <br>
         <p style="font-size: 20px">Rate this adventure!</p>
 				<div class="star-rating">
 				  <input type="radio" id="5-stars" name="rating" value="5" />

@@ -21,7 +21,7 @@ vue.myProfile = `
     <span class="icon icon-close"></span>
   </button>-->
   <br>
-  <center <h5 class="catchphrase" style="font-size: 48px; text-shadow: 5px 5px #b0c5fc; padding-top: 10px;">Profile</h5></center>
+  <center <h5 class="catchphrase" style="font-size: 38px; text-shadow: 5px 5px #b0c5fc; padding-top: 10px;">Profile</h5></center>
   	
 	
   <br><br>
