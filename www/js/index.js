@@ -3,17 +3,17 @@ window.vueControllers = {};
 var vue = new Vue ({
                 el: '#app',
                 data: {
-                	isSignedIn: false,
-                  page: 'Start',
-                  startPage: '',
+                	        isSignedIn: false,
+                            page: 'Start',
+                            startPage: '',
         					email: '',
         					userpass: '',
         					homepage: '',
         					signin: '',
         					viewAdventures: '',
         					camera: '',
-                  feed: '',
-                  leaderboards: ''
+                            feed: '',
+                            leaderboards: ''
                 },
                 methods: {
                 	signInFn: function (event) {

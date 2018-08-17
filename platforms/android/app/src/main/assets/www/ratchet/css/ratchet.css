@@ -905,7 +905,7 @@ input[type="color"] {
   padding: 0 15px;
   margin-bottom: 15px;
   line-height: 21px;
-  background-color: (255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
   border: 1px solid #3c5db7;
   color: #3c5db7;
   border-radius: 3px;
@@ -1148,8 +1148,7 @@ select {
   width: 100%;
   min-height: 100%;
   overflow: hidden;
-  background-color: #fff;
-  opacity: 0;
+ background: linear-gradient(to bottom right, #e6a3ff, #b0c5fc);
   -webkit-transition: -webkit-transform .25s, opacity 1ms .25s;
      -moz-transition:    -moz-transform .25s, opacity 1ms .25s;
           transition:         transform .25s, opacity 1ms .25s;
@@ -1157,6 +1156,7 @@ select {
       -ms-transform: translate3d(0, 100%, 0);
           transform: translate3d(0, 100%, 0);
 }
+
 .modal.active {
   height: 100%;
   opacity: 1;

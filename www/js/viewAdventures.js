@@ -13,31 +13,35 @@ vue.viewAdventures = `
   </header>
 
   <div class="content">
-    <p class="content-padded" style="font-size: 40px"> <br><br><br><br><br><br><br><br> <center>Go to the Museum of Natural History and find the scariest dinosaur fossil. Get a stranger, and pretend to run away like the dinosaur is about to chase you!</center></p>
+    <p class="content-padded" style="font-size: 40px; padding: 40px;"> <br><br><br><br><br><br><br><br> <center>Go to the Museum of Natural History and find the scariest dinosaur fossil. Get a stranger, and pretend to run away like the dinosaur is about to chase you!</center></p>
   <br><br><br><br><center><div style="font-size: 36px">Amount of Points: 100</div><br><br><br>
-  <center><button class="btn-outlined">Venture!</button></center>
+  <center><button class="btn-outlined" onclick="vue.page = 'camera'">Venture!</button></center>
   </div>
 </div>
 
 <div id="Dream" class="modal">
   <header class="bar bar-nav">
     <a class="icon icon-close pull-right" href="#Dream"></a>
-    <h1 class="titleAd">Dream Machine in Williamsburg</h1>
+    <h1 class="titleAd" style="font-size: 42px;">Dream Machine in Williamsburg</h1>
   </header>
 
   <div class="content">
-    <p class="content-padded">Theres a pop-up exhibit in Williamsburg, Brooklyn called Dream Machine. Go there and ask 3 people to show the best photo they took inside, and give a silly review of each one! </p>
+    <p class="content-padded" style="font-size: 40px; padding: 40px;"> <br><br><br><br><br><br><br><br> <center>Theres a pop-up exhibit in Williamsburg, Brooklyn called Dream Machine. Go there and ask 3 people to show the best photo they took inside, and give a silly review of each one!</center></p>
+  <br><br><br><br><center><div style="font-size: 36px">Amount of Points: 100</div><br><br><br>
+  <center><button class="btn-outlined" onclick="vue.page = 'camera'">Venture!</button></center>
   </div>
 </div>
 
 <div id="Needle" class="modal">
   <header class="bar bar-nav">
     <a class="icon icon-close pull-right" href="#Needle"></a>
-    <h1 class="titleAd">Cleo's Needle in Central Park</h1>
+    <h1 class="titleAd" style="font-size: 42px;">Cleo's Needle in Central Park</h1>
   </header>
 
   <div class="content">
-    <p class="content-padded">Go to Central Park and find Cleopatra's Needle. Film yourself holding the needle by the point.</p>
+    <p class="content-padded" style="font-size: 40px; padding: 40px;"> <br><br><br><br><br><br><br><br> <center>Go to Central Park and find Cleopatra's Needle. Film yourself holding the needle by the point. </center></p>
+ <br><br><br><br><center><div style="font-size: 36px">Amount of Points: 100</div><br><br><br>
+  <center><button class="btn-outlined" onclick="vue.page = 'camera'">Venture!</button></center>
   </div>
 </div>
 
@@ -48,9 +52,9 @@ vue.viewAdventures = `
   </header>
 
   <div class="content">
-    <p class="content-padded" style="font-size: 40px" > <br><br><br><br><br><br><br><br><center>Go to AppNexus and act like you are giving a pitch presentation for a make-believe app!</center></p>
+    <p class="content-padded" style="font-size: 40px; padding: 40px;"> <br><br><br><br><br><br><br><br><center>Go to AppNexus and act like you are giving a pitch presentation for a make-believe app!</center></p>
   <br><br><br><br><center><div style="font-size: 36px">Amount of Points: 100</div><br><br><br>
-  <center><button class="btn-outlined" onclick="vue.page = 'camera'">Accept</button></center>
+  <center><button class="btn-outlined" onclick="vue.page = 'camera'">Venture!</button></center>
   </div>
 </div>
 `;

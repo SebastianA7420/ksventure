@@ -131,6 +131,7 @@ vue.feed = `
 				  <input type="radio" id="1-star" name="rating" value="1" />
 				  <label for="1-star" class="star">&#9733;</label>
 				</div></center>
+				<br><br>
       </div>
     </a>
   </li>
