@@ -22,6 +22,7 @@
   padding:0 .2em;
   text-align:center;
   width:5em;
+  padding-top: 10px;
 }
 
 .star-rating input {
@@ -348,18 +349,11 @@ background: black;
 #ldbdPics{
   border-radius: 50%;
 }
-<<<<<<< Updated upstream
 
-=======
   
->>>>>>> Stashed changes
 .hmLogo {
     width: 40px;
     height: 30px;
 }
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 
 

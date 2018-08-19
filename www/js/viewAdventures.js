@@ -54,8 +54,9 @@ vue.viewAdventures = `
   <div class="content">
     <p class="content-padded" style="font-size: 60px;"> <br><br><br><center>Go to AppNexus and act like you are giving a pitch presentation for a make-believe app!</center></p>
   
-  <br><br><br><br><center><div style="font-size: 36px">Amount of Points: 100</div><br><br><br>
+  <br><br><center><div style="font-size: 36px">Amount of Points: 100</div><br>
   <center><button class="btn-outlined" onclick="vue.page = 'camera'">Venture!</button></center>
+  <br><br> <div style="font-size: 25px;">Address: 28 W 23rd St, New York, NY 10010 <br> (Nearest Train Station: 23rd St <span><img class="train" src="r.png"><img class="train" src="w.png" style="margin-left: 5px;"></span>)</div>
   </div>
 </div>
 `;
