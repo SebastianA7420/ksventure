@@ -4,8 +4,8 @@ vue.leaderboards = `
   <h1 class="title">Venture</h1>
 </header>
 <header class="bar1" style="background:linear-gradient(to bottom right, #e6a3ff, #b0c5fc);">
-<center><img src="VentureTrophy.png" style="padding-top: 10px;" alt="VENTURE TROPHY" width="100" height="100"></center>
-<h2 style="font-family: Montserrat;  color: #951dc1; text-shadow: 2px 2px #b0c5fc; padding-bottom: 10px;"><center>Leaderboards</center></h2>
+<center><img src="VentureTrophy.png" style="padding-top: 10px;" alt="VENTURE TROPHY" width="100" height="100"></center> <br><br>
+<h2 class="catchphrase" style="font-size: 36px; padding-bottom: 10px; padding-top: 10px; text-shadow: 5px 5px #b0c5fc;"><center>Leaderboard</center></h2>
 </header>
 
 <div style="font-family: Montserrat;  color: #951dc1; text-shadow: 2px 2px #b0c5fc;">

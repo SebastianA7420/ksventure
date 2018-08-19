@@ -23,7 +23,7 @@ vue.feed = `
  					 <p class="content-padded" style="font-size: 10px; margin-bottom: -10px;">
  					 <center style="font-size: 25px; margin-right: 20px; padding-top: 50px;">By: Sebastian Trash</center>
  					 <center style="font-size: 25px; margin-right: 20px; padding-top: 50px;">We had some cool dudes choose our outfits to wear on the H&M Runway in Times Square!</center>
-					 <br><br><br> <center style="font-size: 20px; margin-right: 20px; padding-top: 50px;">Was this video not appropriate?  <button class="btn-outlined">Report!</button></center>
+					 <br><br> <center style="font-size: 20px; margin-right: 20px; padding-top: 50px;">Was this video not appropriate?  <button class="btn-outlined">Report!</button></center>
  					 </p> <br>
  			 </div>
 	</div>

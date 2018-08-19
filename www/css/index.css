@@ -253,13 +253,13 @@ min-height: 5%;
   padding: 0 4px;
 }
 .tit1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Oswald";
     font-size: 40px;
 
     text-align: center;
-    color: white;
+    color: #951dc1;
     
-    text-shadow: 2px 2px #b0c5fc;
+    text-shadow: 5px 5px #b0c5fc;
 
     z-index: 1;
 }
@@ -269,7 +269,7 @@ min-height: 5%;
     font-size: 30px;
 
     text-align: center;
-    color: white;
+    color: 
     
     text-shadow: 5px 5px #b0c5fc;
 
