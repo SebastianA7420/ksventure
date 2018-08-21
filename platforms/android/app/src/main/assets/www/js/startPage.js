@@ -1,11 +1,8 @@
 
 
 vue.startPage = `
-	
+
 <div class="content-wrapper">
-	<!--<video autoplay muted loop id="video">
-		<source src="../videos/Image from iOS.mp4" type="video/mp4">
-	</video>-->
 
 <br><br><br><br><br><br><br><br>
 
